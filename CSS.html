@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="style.css">
+
+
+
+<body>
+
+    <header id="header">
+
+        <a href="#" class="logo">LogoCSS</a>
+
+        <button id="btn-mobile">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav id="nav">
+            <ul id="menu" >
+                <li><a href="#float">Float</a></li>
+                <li><a href="#flexbox">Flexbox</a></li>
+                <li><a href="#grid">Grid</a></li>
+                <li><a href="#contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Metodo float-->
+        <section>
+            <h2>1. Float</h2>
+            <div class="container-float">
+                <div id="centralizer">
+                    <div class="card card-float">
+                        <h3>Card 1</h3>
+                        <p>Float</p>
+                    </div>
+                    <div class="card card-float">
+                        <h3>Card 2</h3>
+                        <p>Float</p>
+                    </div>
+                    <div class="card card-float">
+                        <h3>Card 3</h3>
+                        <p>Float</p>
+                    </div>
+                </div>
+        </section>
+
+        <!--Metodo flex-->
+        <section>
+            <h2>2. Flexbox</h2>
+            <div class="container-flexbox">
+                <div class="card card-flexbox">
+                    <h3>Card 1</h3>
+                    <p>Flexbox</p>
+                </div>
+                <div class="card card-flexbox">
+                    <h3>Card 2</h3>
+                    <p>Flexbox</p>
+                </div>
+                <div class="card card-flexbox">
+                    <h3>Card 3</h3>
+                    <p>Flexbox</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Metodo CSS grid-->
+        <section>
+            <h2>3. CSS grid</h2>
+            <div class="container-grid">
+                <div class="card card-grid">
+                    <h3>Card 1</h3>
+                    <p>grid1</p>
+                </div>
+                <div class="card card-grid">
+                    <h3>Card 2</h3>
+                    <p>grid2</p>
+                </div>
+                <div class="card card-grid">
+                    <h3>Card 3</h3>
+                    <p>grid3</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="celular">
+            Conteudo mobile
+
+        </div>
+
+        <!--CSS POSITION-->
+
+        <div id="whatsapp">
+            <div id="notification"></div>
+            <a href="....">
+                <img id="whats-img" src="img/icon-whatsApp.png">
+        </div>
+
+        <div id="seta">
+            ,<img src="img/seta-img.png" alt="">
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
